@@ -15,9 +15,7 @@ def seq_reversed(seq):
 
 
 def last_third_first_third_mid_third(seq):
-    pass
-
-
-test_list = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
-print(seq_reversed('testing one two three four five'))
-print(seq_reversed(test_list))
+    first_third = seq[:(len(seq)//3)]
+    mid_third = seq[(len(seq)//3):-(len(seq)//3)]
+    last_third = seq[-(len(seq)//3):]
+    return last_third + first_third + mid_third
