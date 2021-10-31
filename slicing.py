@@ -11,7 +11,7 @@ def first4_last4_every_other_removed(seq):
 
 
 def seq_reversed(seq):
-    pass
+    return seq[::-1]
 
 
 def last_third_first_third_mid_third(seq):
@@ -19,5 +19,5 @@ def last_third_first_third_mid_third(seq):
 
 
 test_list = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
-print(first4_last4_every_other_removed('testing one two three four five'))
-print(first4_last4_every_other_removed(test_list))
+print(seq_reversed('testing one two three four five'))
+print(seq_reversed(test_list))
