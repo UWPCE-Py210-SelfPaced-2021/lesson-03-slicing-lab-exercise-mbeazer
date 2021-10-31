@@ -1,5 +1,5 @@
 def exchange_first_last(seq):
-    pass
+    return seq[-1:]+seq[1:-1]+seq[:1]
 
 
 def every_other_removed(seq):
@@ -16,3 +16,8 @@ def seq_reversed(seq):
 
 def last_third_first_third_mid_third(seq):
     pass
+
+
+test_list = (1, 2, 3, 4, 5, 6, 7)
+print(every_other_removed('testing'))
+print(every_other_removed(test_list))
