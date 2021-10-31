@@ -3,7 +3,7 @@ def exchange_first_last(seq):
 
 
 def every_other_removed(seq):
-    pass
+    return seq[::2]
 
 
 def first4_last4_every_other_removed(seq):
